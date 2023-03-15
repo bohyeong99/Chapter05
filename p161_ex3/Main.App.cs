@@ -10,7 +10,7 @@ namespace p161_ex3
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter a month (1-12): ");
+            Console.Write("몇월이 궁금하세요? : ");
             int month = int.Parse(Console.ReadLine());
 
             if (month < 1 || month > 12)
@@ -19,7 +19,7 @@ namespace p161_ex3
             }
             else
             {
-                Console.Write("Enter a year: ");
+                Console.Write("연도를 입력하시오. : ");
                 int year = int.Parse(Console.ReadLine());
 
                 int daysInMonth = DateTime.DaysInMonth(year, month);
