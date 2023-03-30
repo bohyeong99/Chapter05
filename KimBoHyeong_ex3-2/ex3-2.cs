@@ -3,20 +3,26 @@ using static System.Console;
 using System.Text;
 using System.IO;
 
-namespace KimBoHyeong_ex1 
+namespace baekjoon
 {
     class MainApp
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            for (int i = 0; i < 5; i++) 
+            int i = 5;
+
+            do
             {
-                for (int j = 0; j <= i; j++) 
+                int j = 0;
+                while (j < i)
                 {
                     Write("*");
+                    j++;
                 }
                 WriteLine();
+                i--;
             }
+            while (i > 0);
         }
     }
 }

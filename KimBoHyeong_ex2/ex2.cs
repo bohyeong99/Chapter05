@@ -3,15 +3,15 @@ using static System.Console;
 using System.Text;
 using System.IO;
 
-namespace KimBoHyeong_ex1 
+namespace baekjoon
 {
     class MainApp
     {
-        static void Main(string[] args)
+        static void Main()
         {
             for (int i = 0; i < 5; i++) 
             {
-                for (int j = 0; j <= i; j++) 
+                for (int j = 5; j > i; j--) 
                 {
                     Write("*");
                 }

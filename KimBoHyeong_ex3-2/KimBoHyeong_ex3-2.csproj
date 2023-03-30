@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{22FB6986-5319-4321-B2A2-AB8D01CB9BB6}</ProjectGuid>
+    <ProjectGuid>{5C03233B-E13C-475F-866D-2C83CAE52798}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>KimBoHyeong_ex1</RootNamespace>
-    <AssemblyName>KimBoHyeong_ex1</AssemblyName>
+    <RootNamespace>KimBoHyeong_ex3_2</RootNamespace>
+    <AssemblyName>KimBoHyeong_ex3-2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ex1.cs" />
+    <Compile Include="ex3-2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
