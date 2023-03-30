@@ -10,6 +10,6 @@ namespace KimBoHyeong_ex1
     {
         static void Main(string[] args)
         {
-        }
+        } 
     }
 }
